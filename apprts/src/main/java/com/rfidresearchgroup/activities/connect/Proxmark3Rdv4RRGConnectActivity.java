@@ -10,7 +10,6 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 
-import com.rfidresearchgroup.activities.main.PM3FlasherMainActivity;
 import com.rfidresearchgroup.activities.tools.DeviceConnectActivity;
 import com.rfidresearchgroup.callback.ConnectFailedCtxCallback;
 import com.rfidresearchgroup.models.AbstractDeviceModel;
@@ -77,7 +76,7 @@ public class Proxmark3Rdv4RRGConnectActivity
                         .setPositiveButton(getString(R.string.flash) + "(OTG)", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(context, PM3FlasherMainActivity.class));
+                                //startActivity(new Intent(context, PM3FlasherMainActivity.class));
                             }
                         })
                         .setNegativeButton(R.string.cancel, null)

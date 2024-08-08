@@ -16,7 +16,6 @@ import com.rfidresearchgroup.fragment.base.BaseFragment;
 import com.rfidresearchgroup.activities.tools.DumpListActivity;
 import com.rfidresearchgroup.activities.tools.FileListActivity;
 import com.rfidresearchgroup.activities.tools.KeyFileListActivity;
-import com.rfidresearchgroup.activities.tools.Proxmark3FirmwareActivity;
 import com.rfidresearchgroup.rfidtools.R;
 
 public class ToolsAccessFragment
@@ -55,6 +54,6 @@ public class ToolsAccessFragment
                 new Intent(context, KeyFileListActivity.class).putExtra("mode", FileListActivity.MODE.EDIT))
         );
 
-        btnPM3Flasher.setOnClickListener(v -> startActivity(new Intent(context, Proxmark3FirmwareActivity.class)));
+        //btnPM3Flasher.setOnClickListener(v -> startActivity(new Intent(context, Proxmark3FirmwareActivity.class)));
     }
 }

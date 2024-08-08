@@ -10,7 +10,6 @@ import android.widget.RadioGroup;
 import androidx.annotation.Nullable;
 
 import com.rfidresearchgroup.activities.main.BaseActivity;
-import com.rfidresearchgroup.activities.main.PM3FlasherMainActivity;
 import com.rfidresearchgroup.rfidtools.R;
 import com.rfidresearchgroup.util.Commons;
 import com.rfidresearchgroup.util.Proxmark3Installer;
@@ -47,7 +46,7 @@ public class Proxmark3NewTerminalInitActivity extends BaseActivity {
         findViewById(R.id.btnFwFlash).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(activity, PM3FlasherMainActivity.class));
+                //startActivity(new Intent(activity, PM3FlasherMainActivity.class));
             }
         });
 

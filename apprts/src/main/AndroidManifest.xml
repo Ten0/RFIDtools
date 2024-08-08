@@ -74,8 +74,6 @@
         <activity android:name="com.rfidresearchgroup.activities.connect.PN53XUsbBulkTransferActivity" />
         <activity android:name="com.rfidresearchgroup.activities.tools.DumpListActivity" />
         <activity android:name="com.rfidresearchgroup.activities.tools.KeyFileListActivity" />
-        <activity android:name="com.rfidresearchgroup.activities.main.PM3FlasherMainActivity" />
-        <activity android:name="com.rfidresearchgroup.activities.tools.Proxmark3FirmwareActivity" />
         <activity android:name="com.rfidresearchgroup.activities.proxmark3.rdv4_rrg.Proxmark3NewTerminalInitActivity" />
         <activity android:name="com.rfidresearchgroup.activities.proxmark3.rdv4_rrg.Proxmark3Rdv4RRGConsoleActivity" />
         <activity android:name="com.rfidresearchgroup.activities.px53x.PN53XConsoleActivity" />
